@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(45deg, white, rgb(255, 214, 255));
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo {
+    
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.tela-login{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    background-color: rgba(255, 211, 249, 0.15);
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width: 26.5%;
+}
+
+input {
+    position: absolute;
+    outline: none;
+    border-radius: 7px;
+    width: 340px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+button {
+    font-weight: 700;
+    position: absolute;
+    top: 76.5%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    width: 26.7%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(192, 0, 192);
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: purple;
+    font-size: 14px;
+}
+.recuperacao-senha {
+    position: absolute;
+    top: 70.6%;
+    left: 59.35%;
+    transform: translate(-50%, -50%);
+
+}
+.criar-conta{
+    position: absolute;
+    top: 33.4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
